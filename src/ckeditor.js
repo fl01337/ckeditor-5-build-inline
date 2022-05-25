@@ -8,6 +8,7 @@ import InlineEditorBase from '@ckeditor/ckeditor5-editor-inline/src/inlineeditor
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 //import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
@@ -39,6 +40,7 @@ export default class InlineEditor extends InlineEditorBase {}
 InlineEditor.builtinPlugins = [
 	Essentials,
 	//UploadAdapter,
+	Alignment,
 	Autoformat,
 	Base64UploadAdapter,
 	Bold,
@@ -73,6 +75,7 @@ InlineEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
+			'alignment',
 			'link',
 			'bulletedList',
 			'numberedList',
