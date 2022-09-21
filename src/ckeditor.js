@@ -9,6 +9,7 @@ import InlineEditorBase from '@ckeditor/ckeditor5-editor-inline/src/inlineeditor
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 //import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import Anchor from '@ckeditor/ckeditor5-anchor/src/anchor';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 //import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import SimpleUploadAdapter  from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter.js';
@@ -42,6 +43,7 @@ InlineEditor.builtinPlugins = [
 	Essentials,
 	//UploadAdapter,
 	Alignment,
+	Anchor,
 	Autoformat,
 	//Base64UploadAdapter,
 	SimpleUploadAdapter,
@@ -73,6 +75,7 @@ InlineEditor.builtinPlugins = [
 InlineEditor.defaultConfig = {
 	toolbar: {
 		items: [
+			'anchor',
 			'heading',
 			'|',
 			'bold',
