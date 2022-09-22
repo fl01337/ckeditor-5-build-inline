@@ -75,7 +75,7 @@ InlineEditor.builtinPlugins = [
 InlineEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'anchor',
+			'elementAddAttributes',
 			'heading',
 			'|',
 			'bold',
