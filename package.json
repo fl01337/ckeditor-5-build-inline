@@ -33,6 +33,7 @@
     "@ckeditor/ckeditor5-cloud-services": "^34.1.0",
     "@ckeditor/ckeditor5-easy-image": "^34.1.0",
     "@ckeditor/ckeditor5-editor-inline": "^34.1.0",
+    "@ckeditor/ckeditor5-element-add-attributes": "git+https://github.com/fl01337/ckeditor5-add-attribute-to-element.git",
     "@ckeditor/ckeditor5-essentials": "^34.1.0",
     "@ckeditor/ckeditor5-heading": "^34.1.0",
     "@ckeditor/ckeditor5-image": "^34.1.0",
