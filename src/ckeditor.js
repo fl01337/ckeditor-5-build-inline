@@ -102,7 +102,8 @@ InlineEditor.defaultConfig = {
 			'imageStyle:side',
 			'|',
 			'toggleImageCaption',
-			'imageTextAlternative'
+			'imageTextAlternative',
+			'linkImage'
 		]
 	},
 	table: {
