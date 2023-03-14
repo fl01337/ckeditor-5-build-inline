@@ -36,6 +36,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import Font from "@ckeditor/ckeditor5-font/src/font";
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 
 export default class InlineEditor extends InlineEditorBase {}
 
@@ -70,7 +71,9 @@ InlineEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	Font
+	Font,
+	FontBackgroundColor
+
 ];
 
 // Editor configuration.
@@ -80,6 +83,7 @@ InlineEditor.defaultConfig = {
 			'heading',
 			'fontSize',
 			'fontColor',
+			'fontBackgroundColor',
 			'|',
 			'bold',
 			'italic',
