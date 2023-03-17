@@ -37,6 +37,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import Font from "@ckeditor/ckeditor5-font/src/font";
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
+import {SimpleIcons} from "@fl01337/ckeditor5-simple-icons";
 
 export default class InlineEditor extends InlineEditorBase {}
 
@@ -72,7 +73,8 @@ InlineEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	Font,
-	FontBackgroundColor
+	FontBackgroundColor,
+	SimpleIcons,
 
 ];
 
@@ -95,6 +97,7 @@ InlineEditor.defaultConfig = {
 			'outdent',
 			'indent',
 			'|',
+			'SimpleIconsButton',
 			'uploadImage',
 			'blockQuote',
 			'insertTable',
